@@ -20,4 +20,6 @@ git config --global alias.st status
 
 REM Branches
 git config --global alias.bl "branch --list"
+git config --global alias.co checkout
+git config --global alias.b "checkout -b "
 
