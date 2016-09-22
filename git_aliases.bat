@@ -2,8 +2,8 @@ REM global operator
 SET operators="--global"
 
 REM general
-git config --global user.name "Alan Peters"
-git config --global user.email alan3051@gmail.com
+git config --global user.name "Your Name"
+git config --global user.email YourEmail@example.com
 
 
 REM log aliases
