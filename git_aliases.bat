@@ -14,6 +14,8 @@ git config %operators% alias.ds "diff --cached HEAD"
 
 
 REM commit
+
+git config %operators% alias.a "add ."
 git config %operators% alias.c commit
 git config %operators% alias.cs "commit -m SAVE"
 git config %operators% alias.cm "commit -m"
@@ -24,3 +26,8 @@ git config %operators% alias.st status
 REM Branches
 git config %operators% alias.bl "branch --list -a"
 git config %operators% alias.co checkout
+
+REM Pull/fetch
+git config %operators% alias.pu  pull
+git config %operators% alias.fa "fetch --all"
+
